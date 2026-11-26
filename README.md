@@ -50,7 +50,7 @@ The blue signifies that the status checks have been passed, and the run time sta
 The selected canary runs also show the same result. Furthermore, you can see that the synthetic requests are being sent to two 
 different browsers to ensure that results aren't restricted to one browser- to prevent surprise anomalies. 
 
-### Step 3 - CloudWatch Agent
+### Step 3 - CloudWatch Agent (Refer to "cloud_watch_agent.sh")
 The default information provided to us via the EC2 console can be quite brief. For example, there are many metrics important metrics we want to view,
 like access logs, error logs, memory utilisation, disk etc. For this reason, I created an agent to do this. First, I created an IAM role for a EC2 CloudWatch agent. 
 Then I modified the IAM role in the "security" settings of the EC2 instance. 
