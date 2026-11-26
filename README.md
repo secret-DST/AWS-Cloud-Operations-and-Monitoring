@@ -16,8 +16,16 @@
 - AWS EC2
 - Linux(ubuntu)
 - Amazon CloudWatch
+- CloudWatch Agent (collects system metrics and logs)
+- CloudWatch Synthetics (website availability and monitoring)
 - SNS
 - Python (for scripting and automation)
 - Bash (Operational Commands)
 - GitHub (documentation and Version Control)
 
+## Steps
+
+### Step 1
+The first step includes creating any networking infrastructure if you want to deploy your instance in a particular VPC, Subnet etc.
+In addition, an ubuntu-based EC2 instance is launched- ensuring the public IP, HTTP and SSH is enabled. For ease, I utilised the
+EC2 user data script to install Apache2 through boot-strapping. (Can be found in user_data.sh)
