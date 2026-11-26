@@ -19,7 +19,7 @@
 - CloudWatch Agent (collects system metrics and logs)
 - CloudWatch Synthetics (website availability and monitoring)
 - SNS
-- Python (for scripting and automation)
+- JSON (for scripting)
 - Bash (Operational Commands)
 - GitHub (documentation and Version Control)
 
